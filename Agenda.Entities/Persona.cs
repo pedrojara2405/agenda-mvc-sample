@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Agenda.Entities
 {
-    public class Class1
+    public class Persona
     {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Numero { get; set; }
+
     }
 }
