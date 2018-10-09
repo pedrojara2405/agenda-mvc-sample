@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaMVC", "AgendaMVC\AgendaMVC.csproj", "{7992BC43-1E16-4C76-8310-CDB7BB643B46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.MVC", "AgendaMVC\Agenda.MVC.csproj", "{7992BC43-1E16-4C76-8310-CDB7BB643B46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.ViewModels", "Agenda.ViewModels\Agenda.ViewModels.csproj", "{42F2425A-D21D-4F2D-B400-F392792F59D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Entities", "Agenda.Entities\Agenda.Entities.csproj", "{ACADF682-E076-4B4E-9734-19D3025D6D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Logic", "Agenda.Logic\Agenda.Logic.csproj", "{CE153A5A-F430-4B73-A950-21E8C4766A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.DataAccess", "Agenda.DataAccess\Agenda.DataAccess.csproj", "{98CCC3DE-E285-41E7-AEC5-B8C30E644FFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{7992BC43-1E16-4C76-8310-CDB7BB643B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7992BC43-1E16-4C76-8310-CDB7BB643B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7992BC43-1E16-4C76-8310-CDB7BB643B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F2425A-D21D-4F2D-B400-F392792F59D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F2425A-D21D-4F2D-B400-F392792F59D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F2425A-D21D-4F2D-B400-F392792F59D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F2425A-D21D-4F2D-B400-F392792F59D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACADF682-E076-4B4E-9734-19D3025D6D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACADF682-E076-4B4E-9734-19D3025D6D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACADF682-E076-4B4E-9734-19D3025D6D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACADF682-E076-4B4E-9734-19D3025D6D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE153A5A-F430-4B73-A950-21E8C4766A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE153A5A-F430-4B73-A950-21E8C4766A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE153A5A-F430-4B73-A950-21E8C4766A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE153A5A-F430-4B73-A950-21E8C4766A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CCC3DE-E285-41E7-AEC5-B8C30E644FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CCC3DE-E285-41E7-AEC5-B8C30E644FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CCC3DE-E285-41E7-AEC5-B8C30E644FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CCC3DE-E285-41E7-AEC5-B8C30E644FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

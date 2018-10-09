@@ -279,6 +279,24 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agenda.DataAccess\Agenda.DataAccess.csproj">
+      <Project>{98ccc3de-e285-41e7-aec5-b8c30e644ffa}</Project>
+      <Name>Agenda.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agenda.Entities\Agenda.Entities.csproj">
+      <Project>{acadf682-e076-4b4e-9734-19d3025d6d20}</Project>
+      <Name>Agenda.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agenda.Logic\Agenda.Logic.csproj">
+      <Project>{ce153a5a-f430-4b73-a950-21e8c4766a32}</Project>
+      <Name>Agenda.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agenda.ViewModels\Agenda.ViewModels.csproj">
+      <Project>{42f2425a-d21d-4f2d-b400-f392792f59d3}</Project>
+      <Name>Agenda.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
